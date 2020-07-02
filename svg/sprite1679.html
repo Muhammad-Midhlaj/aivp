@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html class="fp-enabled" lang="ru" style="overflow: hidden; height: 100%;">
+<head>
+	<meta charset="UTF-8">
+	<title>RedAge RolePlay | GTA 5 RP </title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta name="description" content="RedAge GTA 5 RolePlay — Первый в России GTA 5 RP проект, имеющий 3000+ активных слотов и стабильный голосовой чат. Присоединяйтесь к нам, ведь мы - лучшие! ">
+	<meta name="keywords" content="RP, РП, RolePlay, Рол плей, Role Play, GTA 5, GTA V, ГТА 5, Red Age, GTA 5 RP, ГТА 5 РП, Мультиплеер, онлайн, red age rp, ред эйдж, редэйдж, Голосовой чат, войс чат, редейдж"> 
+	<link href="/css/slick.css?v=4" rel="stylesheet">
+	<link href="/css/main.css?v=4" rel="stylesheet">
+	<link href="/css/fullpage.css?v=4" rel="stylesheet">
+	<link href="favicon.ico" rel="shortcut icon">
+	<link href="/css/themes/semantic.rtl.min.css?v=4" rel="stylesheet">
+	<script src="/js/jquery-1.11.3.min.js?v=4">
+	</script>
+	<script src="/js/fm.revealator.jquery.min.js?v=4">
+	</script>
+	<script src="/js/jquery-ui.js?v=4">
+	</script>
+	<meta name="verification" content="112b975da7ed3348325403186301de" />
+	<meta name="verification" content="bdcdb0a9366e37a51e64b90f8e625e" />
+<script>
+	   jQuery(function($) {
+	   
+	   var index = 'qpsstats-active-tab';
+	   var dataStore = window.sessionStorage;
+	   var oldIndex = 0;
+	   
+	   var tabs = $('.about_tabs');
+	   var tabs_select = true;
+	   var selector = $(".about_tabs").find(".slide__redage");
+	   var activeItem = tabs.find('.about_tabs li .ui-state-active');
+	   var activeWidth = activeItem.innerWidth();
+	   
+	   $(".slide__redage").css({
+	     "left": activeItem.position.left + "px", 
+	     "width": activeWidth + "px"
+	   });
+
+
+
+	       
+	   try {
+	       oldIndex = dataStore.getItem(index);
+	       $('#redage_slide').addClass('animated fadeInLeft tabs' + oldIndex);
+	       $('#redage_slide').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+	           $(this).removeClass('animated fadeInLeft');
+	       });
+	   } catch (e) {}
+
+
+	   $("#tabs").tabs({
+	       active: oldIndex,
+	       hide: {
+	           effect: "fade",
+	           duration: 200
+	       },
+	       show: { 
+	           function( event, ui ) {
+
+	           alert('2');
+	           },
+	           effect: "fade",
+	           direction: "right",
+	           duration: 200
+	       }, 
+	       activate: function(event, ui) {
+				   tabs_select = false;
+					
+				   var newIndex = ui.newTab.parent().children().index(ui.newTab);
+				
+				   $('#redage_slide').removeClass();
+				   $('#redage_slide').addClass('animated fadeInLeft tabs' + newIndex);
+				   $('#redage_slide').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+					   $(this).removeClass('animated fadeInLeft');  
+				 });
+					var isn = $('.ui-tabs-active');
+					var activeWidth = isn.innerWidth();
+					var itemPos = isn.position();
+						 $(".slide__redage").css({
+						   "left":itemPos.left + "px", 
+						   "width": activeWidth + "px"
+					});
+	           
+			   
+	           try {
+	               dataStore.setItem(index, newIndex);
+	           } catch (e) {}
+				tabs_select = true;
+	       }
+	   })
+	   
+	   	   
+/* 	   $(".about_tabs").on("click","li",function(e){
+		if (tabs_select == true) {
+		 e.preventDefault();
+	     var activeWidth = $(this).innerWidth();
+	     var itemPos = $(this).position();
+	     $(".slide__redage").css({
+	       "left":itemPos.left + "px", 
+	       "width": activeWidth + "px"
+	     });
+			
+		}
+	   });
+	        */
+	   
+	   
+			window.onload = function() {
+			var elm = $(".revealator-slideright");
+			elm.css('transform','translate(0, 0)').css('opacity', '1').css('z-index', '1');
+			};
+				   
+			
+	    	function slider_tabs() {
+	        var elm = $(".ui-state-active");
+	        var activeWidth = elm.innerWidth();
+	        var itemPos = elm.position();
+	        $(".slide__redage").css({
+			"left":itemPos.left + "px", 
+			"width": activeWidth + "px"
+			});
+			}
+			window.onresize = function(event) {
+			slider_tabs();
+		    };
+			
+			
+			slider_tabs();
+	})
+	</script>
+	<style>
+	   .ajs-message.ajs-default_rd {
+	   background: rgba(166, 166, 166, 0.65);
+	   color: #fff;
+	   border: none;
+	   border-radius: 6px;
+	   }
+
+		.container_item__play:nth-child(3) .btn__play {
+		pointer-events: none;
+		}
+	</style>
+	
+<meta name="yandex-verification" content="fe0edfe396221c45" />
+
+<script type="text/javascript">!function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://vk.com/js/api/openapi.js?161",t.onload=function(){VK.Retargeting.Init("VK-RTRG-388263-7sYiV"),VK.Retargeting.Hit()},document.head.appendChild(t)}();</script><noscript><img src="https://vk.com/rtrg?p=VK-RTRG-388263-7sYiV" style="position:fixed; left:-999px;" alt=""/></noscript>
+<meta name="google-site-verification" content="ahDiysBb8kq-zD6oXjqPseJRwAWiK8gDI47DFAefhZU" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138889592-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138889592-2');
+</script>
+
+</head>
+
+<body class="layout fp-viewing-intro fp-responsive" style="overflow: hidden; height: 100%;">
+<div id="p_prldr"><div class="contpre"><span class="svg_anm"></span><br>Подождите<br><small>идет загрузка</small></div></div>
+	<div class="layout__header">
+		<div class="container">
+			<div class="header" id="myMenu">
+				<div class="header__content">
+					<div class="header__logo">
+						<a class="logo active" href="#home"></a>
+					</div>
+					<div class="header__bars">
+						<div class="bars js-controller" data-controlled=".header__links"></div>
+					</div>
+				</div>
+				<div class="header__links">
+					<div class="header__nav">
+						<div class="nav">
+							<a class="nav__link" data-menuanchor="home" href="#home">Главная</a> <a class="nav__link" data-menuanchor="about-the-project" href="#about-the-project">О проекте</a> <a class="nav__link" data-menuanchor="How-to-start-playing" href="#How-to-start-playing">Как играть ?</a> <a class="nav__link" data-menuanchor="news" href="#news">Новости</a> <a class="nav__link" href="https://forum.redage.net/">Форум</a> <a class="nav__link" href="https://wiki.redage.net/">Wiki</a> <a class="nav__link" href="https://vk.com/redage" target="_blank">Группа ВК</a> <a class="nav__link" href="/donate" target="_blank">Донат</a>  <a class="nav__link nav__link_donate active" href="http://map.redage.net">Карта</a>  <a class="nav__link nav__link_donate__mob" href="https://lk.redage.net">Кабинет</a>
+						</div>
+					</div>
+                    <div class="header__contacts">
+						<div class="nav">
+							<a class="nav__link nav__link_private primary_btn gradient_btn__orange not_private" href="https://lk.redage.net"><i class="ic__user"></i>Личный кабинет</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="layout__content">
+		<div class="content fullpage-wrapper" id="fullpage">
+			<div class="section content__slide_home fp-section fp-table" data-anchor="home" data-fp-styles="null">
+				<div class="fp-tableCell">
+					<div class="pxl">
+						<div id="scene">
+							<div class="slide-main__bg" data-depth="0.2"></div>
+						</div>
+					</div>
+					<div class="slide-content slide-content_home container">
+						<div class="home slide-content__content wrapper">
+							<div class="home__main revealator-slideright revealator-once">
+								<h1 class="home__title h1">
+									RedAge
+								</h1>
+								
+								<div class="md_bls">
+    								
+    								<div class="title_news">↓ Жми, узнаешь последние новости</div>
+									
+									<ul class="news_block">
+           								<li><a href="https://vk.com/@redage-ustanovka-klienta-dlya-egs" target="_blank">Получи GTA 5 бесплатно для себя и друзей!</a></li>
+<li><a href="https://vk.com/@redage-interaktivnaya-karta" target="_blank">Есть ли свободные дома? Интерактивная карта поможет!</a></li>
+<li><a href="https://vk.com/@redage-besplatnye-redbucks-a-takzhe-ruletka" target="_blank">Бесплатный донат (RedBucks) КАЖДЫЙ ДЕНЬ, для каждого!</a></li>
+									</ul>
+    								
+    								
+    								<div class="home__button">
+    									<a class="primary_btn gradient_btn__orange start_play" href="https://vk.com/@redage-nachalnye-deistviya">Начать играть</a>
+    									<div class="video_play">
+    										<div class="video_play__lds">
+    											<a class="modal-video-redage" href="https://vk.com/video_ext.php?oid=-180916214&id=456239725&hash=5711457abeaa1d12&hd=2">
+    											<div class="lds-css ng-scope">
+    												<div class="lds-eclipse" style="width:100%;height:100%">
+    													<div></div>
+    												</div>
+    											</div></a>
+    										</div>
+    									</div>
+    								</div>
+    								
+								</div>
+								<div class="server" id="serv_upd">
+								<div class="serv__rd" id="upd_Black">
+					<div class="serv__rd__title h2">
+						Redage RP (Black)
+					</div>
+					<div class="serv__rd__text">
+						Игроков: <span></span>
+					</div>
+					<div class="serv__rd__line">
+					<span class="gradient_btn__orange"></span>
+					</div>
+					<div class="serv__rd__text">
+						IP сервера:
+					</div>
+					<div class="serv__rd__ip" id="serv_Black">
+				<span>51.77.42.5:22005</span><a href="#" onclick="CopyToClipboard('serv_Black')">Скопировать ip</a>
+			</div>
+		</div><div class="serv__rd" id="upd_White">
+					<div class="serv__rd__title h2">
+						Redage RP (White)
+					</div>
+					<div class="serv__rd__text">
+						Игроков: <span></span>
+					</div>
+					<div class="serv__rd__line">
+					<span class="gradient_btn__orange"></span>
+					</div>
+					<div class="serv__rd__text">
+						IP сервера:
+					</div>
+					<div class="serv__rd__ip" id="serv_White">
+				<span>51.77.42.6:22005</span><a href="#" onclick="CopyToClipboard('serv_White')">Скопировать ip</a>
+			</div>
+		</div><div class="serv__rd" id="upd_Red">
+					<div class="serv__rd__title h2">
+						Redage RP (Red)
+					</div>
+					<div class="serv__rd__text">
+						Игроков: <span></span>
+					</div>
+					<div class="serv__rd__line">
+					<span class="gradient_btn__orange"></span>
+					</div>
+					<div class="serv__rd__text">
+						IP сервера:
+					</div>
+					<div class="serv__rd__ip" id="serv_Red">
+				<span>51.83.140.179:22005</span><a href="#" onclick="CopyToClipboard('serv_Red')">Скопировать ip</a>
+			</div>
+		</div>
+								</div>
+							</div>
+							<div class="per__main">
+								<div class="person__left revealator-slideright revealator-once"></div>
+								<div class="person__right revealator-slideleft revealator-delay2 revealator-once">
+									<div class="dialog__left">
+										<span class="circle__left__a revealator-delay10 revealator-fade revealator-once"></span><span class="circle__left__b revealator-delay11 revealator-fade revealator-once"></span> <span class="text__dialog revealator-delay14 revealator-fade revealator-once" id="d1">Как тебе обновы за последнее время?</span>
+									</div>
+									<div class="dialog__right">
+										<span class="circle__right__a revealator-delay2 revealator-fade revealator-once"></span><span class="circle__right__b revealator-delay5 revealator-fade revealator-once"></span> <span class="text__dialog revealator-delay7 revealator-fade revealator-once" id="d2">Я вот в шоке...</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section content__slide__about fp-section fp-table" data-anchor="about-the-project" data-fp-styles="null">
+				<div class="fp-tableCell">
+					<div class="pxl">
+						<div id="scene2">
+							<div class="slide-main__about" data-depth="0.2"></div>
+						</div>
+					</div>
+					<div class="slide-content slide-content_about container">
+						<div class="about-the-project slide-content__content wrapper">
+							<div class="about-the-project__main slide-content__content-main slide-content__content-main_max-width container__about">
+								<div class="slide_tabs tabs0" id="redage_slide"></div>
+							</div>
+							<div class="slide-content__content-side">
+								<div class="about_tabs" id="tabs">
+									<ul>
+										<li class="tabs-1">
+											<a href="#tabs-1"><span></span></a>
+										</li>
+										<li class="tabs-2">
+											<a href="#tabs-2"><span></span></a>
+										</li>
+										<li class="tabs-3">
+											<a href="#tabs-3"><span></span></a>
+										</li>
+										<li id='slider'><span class="slide__redage"></span></li>
+									</ul>
+									<div class="tabs-container-wrapper">
+										<div class="tabs-container">
+											<div id="tabs-1">
+												<div class="h_tabs">
+													Уникальный мод
+												</div>
+												<p>На нашем GTA 5 RP проекте используется лучший в истории игровой мод. Легкий в освоении, интересный в развитии, а главное – полностью уникальный. Забудь про чат-команды из SAMP, ведь мы предоставляем возможность пользоваться приятными и удобными графическими интерфейсами, позволяя тебе отыгрывать РП на совершенно ином уровне, чем, в любом другом Role Play сеттинге.</p>
+											</div>
+											<div id="tabs-2">
+												<div class="h_tabs">
+													Администрация
+												</div>
+												<p>Каждый из нас знаком с таким явлением, как недоброжелательная и несправедливая администрация на серверах GTA 5 RP и не только, которая убивает всё желание играть и развиваться. Наши Администраторы ежедневно общаются с игроками, во время игрового процесса качественно решают конфликтные ситуации и следят за порядком, а так же создают позитивную атмосферу на проекте!</p>
+											</div>
+											<div id="tabs-3">
+												<div class="h_tabs">
+													Войс-Чат
+												</div>
+												<p>В связи с тем, что платформа RAGE MP открывает новые перспективы и возможности, на нашем проекте был реализован полноценный голосовой чат. С помощью него происходит всё основное взаимодействие людей в рамках игрового процесса. Теперь каждый желающий имеет возможность полностью погрузиться в настоящую GTA 5 Role Play атмосферу, получая от игры максимальное удовольствие!</p>
+											</div>
+											<div class="button">
+												<a class="btn gradient_btn__orange btn__tabs" href="https://vk.com/redage" target="_blank">Узнать больше</a> <a class="btn btn_rond_orange btn__tabs modal-video-redage" href="https://www.youtube.com/watch?v=0d9AVk-cKng">Видео о проекте</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section content__slide__playing fp-section fp-table" data-anchor="How-to-start-playing" data-fp-styles="null">
+				<div class="bg-play"></div>
+				<div class="fp-tableCell">
+					<div class="slide-content slide-content_playing container wrapper">
+						<div class="playing slide-content__content">
+							<div class="slide-content__content-side">
+								<div class="md">
+									<div class="h_tabs">
+										Как начать играть?
+									</div>
+									<p>GTA V RP — новый уровень онлайн-игр. Мы сделали это. Будь бандитом или полицейским, чиновником или медиком, мафией или сотрудником ФБР, байкером или владельцем собственной организации. Прочувствуй атмосферу удивительного мира ролевой игры с реалистичным миром GTA 5!</p>
+								</div>
+							</div>
+							<div class="md_bt">
+								<div class="video_play__play">
+									<div class="video_play__lds__play">
+										<a class="modal-video-redage" href="https://www.youtube.com/watch?v=0d9AVk-cKng">
+										<div class="lds-css ng-scope">
+											<div class="lds-eclipse__play" style="width:100%;height:100%">
+												<div></div>
+											</div>
+										</div></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="page__width__play">
+							<div class="container__play">
+								<div class="container_item__play">
+									<img alt="content" src="/images/content/play_1.png">
+									<div class="block">
+										<h3 class="block__heading">Установите лицензионную GTA 5</h3>
+										<p class="block__content">Для игры на сервере подойдет любая версия GTA 5 (Steam или Social Club) <span>Также для игры подойдет любой забаненный аккаунт GTA 5.</span></p>
+									</div><a class="btn__play gradient_btn__orange" href="https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/" target="_blank"><span class="ic__download"></span> Купить GTA 5</a>
+								</div>
+								<div class="container_item__play">
+									<img alt="content" src="/images/content/play_2.png">
+									<div class="block">
+										<h3 class="block__heading">Установите мультиплеер RAGE</h3>
+										<p class="block__content">Далее вам потребуется скачать и установить RAGE MP. Он бесплатный.</p>
+									</div><a class="btn__play gradient_btn__orange download__multiplayer" href="https://cdn.rage.mp/public/files/RAGEMultiplayer_Setup.exe"><span class="ic__download"></span> Скачать мультиплеер</a>
+								</div>
+								<div class="container_item__play">
+									<img alt="content" src="/images/content/play_3.png">
+									<div class="block">
+										<h3 class="block__heading">Найдите RedAge</h3>
+										<p class="block__content">Чтобы найти наши сервера, вам необходимо открыть мультиплеер, нажать на кнопку “Сервера” и далее найти по названию “RedAge”.</p>
+									</div><a class="btn__play gradient_btn__orange" href="#" style="background: rgba(255, 255, 255, 0.2);box-shadow: none;"><span class="ic__chain"></span> Подключиться на сервер</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section content__slide__news fp-section fp-table" data-anchor="news" data-fp-styles="null">
+				<div class="fp-tableCell">
+					<div class="slide-content slide-content_news container">
+						<div class="news slide-content__content wrapper">
+							<div class="news__main slide-content__content-main slide-content__content-main_max-width container__news">
+								<div class="title__h">
+									Обновления проекта
+								</div>
+								<div class="news__blocks">
+    								<a class="news__block" href="https://vk.com/@redage-ustanovka-klienta-dlya-egs" target="_blank">
+<div class="hv"><img alt='Получи GTA 5 бесплатно для себя и друзей!' src="/images/content/OJ5Vgg_2Evw.jpg"></div>
+<div class="desc__news">
+<div class="h__t">
+Получи GTA 5 бесплатно для себя и друзей!
+</div>
+<div class="h__desc">
+<span>Дата публикации:</span> <span>15.05.2020</span>
+</div>
+</div>
+<div class="border"></div></a>
+<a class="news__block" href="https://vk.com/@redage-interaktivnaya-karta" target="_blank">
+<div class="hv"><img alt='Есть ли свободные дома? Интерактивная карта поможет!' src="/images/content/karta.jpg"></div>
+<div class="desc__news">
+<div class="h__t">
+Есть ли свободные дома? Интерактивная карта поможет!
+</div>
+<div class="h__desc">
+<span>Дата публикации:</span> <span>01.04.2020</span>
+</div>
+</div>
+<div class="border"></div></a>
+<a class="news__block" href="https://vk.com/@redage-besplatnye-redbucks-a-takzhe-ruletka" target="_blank">
+<div class="hv"><img alt='Бесплатный донат (RedBucks) КАЖДЫЙ ДЕНЬ, для каждого!' src="/images/content/7_t7WYmbIb8.jpg"></div>
+<div class="desc__news">
+<div class="h__t">
+Бесплатный донат (RedBucks) КАЖДЫЙ ДЕНЬ, для каждого!
+</div>
+<div class="h__desc">
+<span>Дата публикации:</span> <span>22.03.2020</span>
+</div>
+</div>
+<div class="border"></div></a>
+								 <a class="btn_rond btn__news" target="_blank" href="https://vk.com/redage">Больше новостей</a>
+								</div>
+							</div>
+							<div class="news__img"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section content__slide__footer fp-section fp-table" data-anchor="footer" data-fp-styles="null">
+				<div class="fp-tableCell">
+					<div class="slide-content slide-content_footer container wrapper">
+						<div class="footer slide-content__content">
+							<div class="slide-content__content-side footer">
+								<div class="md_l footer_page">
+									<div class="h_tabs">
+										Следите за нами
+									</div>
+									<p>Подписывайтесь, чтобы быть всегда вкурсе событий!</p>
+								</div>
+								<ul class="md_l contact_blc">
+									<li class="contact">
+										<a href="https://vk.com/redage" target="_blank"><img alt="vk" class="img" src="/images/vk.png">
+										<div class="grow">
+											<div class="h">
+												Официальная страница Вконтакте
+											</div>
+											<p>Все главные новости касательно проекта.</p>
+										</div>
+										<div class="btn btn_rond_orange">
+											Подписаться
+										</div></a>
+									</li>
+									<li class="contact">
+										<a href="https://vk.com/redagefree" target="_blank"><img alt="vk" class="img" src="/images/vk1.png">
+										<div class="grow">
+											<div class="h">
+												Свободная группа Вконтакте
+											</div>
+											<p>Группа для общения с игроками и покупки/продажи игрового имущества.</p>
+										</div>
+										<div class="btn btn_rond_orange">
+											Вступить
+										</div></a>
+									</li>
+									<li class="contact">
+										<a href="https://www.youtube.com/channel/UCCa454TgDkTw8VsS7MTBJIQ" target="_blank"><img alt="youtube" class="img" src="/images/youtube.png">
+										<div class="grow">
+											<div class="h">
+												Youtube канал
+											</div>
+											<p>Сборник видео-гайдов, прямые трансляции с командой проекта и обзоры обновлений.</p>
+										</div>
+										<div class="btn btn_rond_orange">
+											Смотреть
+										</div></a>
+									</li>
+									<li class="contact">
+										<a href="https://discord.gg/redage" target="_blank"><img alt="discord" class="img" src="/images/discord.png">
+										<div class="grow">
+											<div class="h">
+												Канал Discord
+											</div>
+											<p>Найди друзей из игры и узнавай все новости первым.</p>
+										</div>
+										<div class="btn btn_rond_orange">
+											Подключиться
+										</div></a>
+									</li>
+								</ul>
+							</div>
+							<footer class="footer">
+								<div>
+									<img alt="logo_white" class="logo_white" src="/images/logo_white.png">
+									
+								</div>
+								<div>
+									<a href="/user-agreement.pdf" target="_blank">Пользовательское соглашение</a> <a href="/privacy-statement.pdf" target="_blank">Положение о конфиденциальности</a>
+								</div>
+							</footer>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<link href="/css/slick-theme.css?v=4" rel="stylesheet">
+	<link href="/css/fm.revealator.jquery.css?v=4" rel="stylesheet">
+	<link href="/css/animate.css?v=4" rel="stylesheet">
+	<link href="/css/magnific-popup.css?v=4" rel="stylesheet">
+	<link href="/css/alertify.min.css?v=4" rel="stylesheet">
+	<script src="/js/alertify.min.js?v=4">
+	</script> 
+	<script src="/js/jquery.js?v=4">
+	</script> 
+	<script src="/js/fastmark.js?v=4">
+	</script> 
+	<script src="/js/fullpage.js?v=4">
+	</script> 
+	<script src="/js/parallax.js?v=4">
+	</script> 
+	<script src="/js/main.js?v=4">
+	</script> 
+	<script src="/js/slick.min.js?v=4">
+	</script> 
+	<script src="/js/jquery.magnific-popup.js?v=4">
+	</script> 
+	<script>
+	    $(document).ready(function(){
+	       function resizeInput() {
+	           $(this).attr('size', $(this).val().length);
+	           $('#ok').text($(this).val());
+	       }
+
+	       $('.width-dynamic')
+	           // event handler
+	           .keyup(resizeInput)
+	           // resize on page load
+	           .each(resizeInput);
+	           
+	        $('.server').slick({
+	         dots: false,
+	         infinite: false,
+	         speed: 300,
+	         slidesToShow: 3,
+	         slidesToScroll: 3,
+	         variableWidth: true,
+	         arrows: false,
+	         responsive: [
+	           {
+	             breakpoint: 1024,
+	             settings: {
+	               slidesToShow: 2,
+	               slidesToScroll: 2,
+	               infinite: true,
+	               dots: false
+	             }
+	           },
+	           {
+	             breakpoint: 600,
+	             settings: {
+	               slidesToShow: 1,
+	               slidesToScroll: 1
+	             }
+	           },
+	           {
+	             breakpoint: 480,
+	             settings: {
+	               slidesToShow: 1,
+	               slidesToScroll: 1
+	             }
+	           }
+
+	         ]
+	       });
+	        
+
+	        //
+	        $('.modal').magnificPopup({
+	        type: 'inline',
+	        removalDelay: 300,
+	        mainClass: 'my-mfp-zoom-in',
+	        fixedContentPos: false
+	        });     
+	        
+	        //
+	        $('.modal_blur').magnificPopup({
+	        type: 'inline',
+	        removalDelay: 300,
+	        mainClass: 'my-mfp-zoom-in',
+	        fixedContentPos: false,
+	        callbacks: {
+	           open: function() {
+	               $('.layout__content').css('filter', 'blur(10px)');
+	               $('.layout__header').css('filter', 'blur(10px)');
+	               },
+	               close: function() {
+	               $('.layout__content').css('filter', 'blur(0px)');
+	               $('.layout__header').css('filter', 'blur(0px)');
+	               }
+	           }
+	        });
+	        
+	       $('.modal-video-redage').magnificPopup({
+	         type: 'iframe',
+	         fixedContentPos: false,
+	           iframe: {
+	             markup: '<div class="mfp-iframe-scaler">'+
+	                       '<div class="mfp-close"><\/div>'+
+	                       '<iframe class="mfp-iframe" frameborder="0" allowfullscreen><\/iframe>'+
+	                     '<\/div>', // HTML markup of popup, `mfp-close` will be replaced by the close button
+	             patterns: {
+	               youtube: {
+	                 index: 'youtube.com/', // String that detects type of video (in this case YouTube). Simply via url.indexOf(index).
+
+	                 id: 'v=', // String that splits URL in a two parts, second part should be %id%
+	                 // Or null - full URL will be returned
+	                 // Or a function that should return %id%, for example:
+	                 // id: function(url) { return 'parsed id'; }
+
+	                 src: '//www.youtube.com/embed/%id%?autoplay=1' // URL that will be set as a source for iframe.
+	               },
+	               vimeo: {
+	                 index: 'vimeo.com/',
+	                 id: '/',
+	                 src: '//player.vimeo.com/video/%id%?autoplay=1'
+	               },
+	               gmaps: {
+	                 index: '//maps.google.',
+	                 src: '%id%&output=embed'
+	               }
+
+	               // you may add here more sources
+
+	             },
+
+	             srcAction: 'iframe_src', // Templating object key. First part defines CSS selector, second attribute. "iframe_src" means: find "iframe" and set attribute "src".
+	           }
+	         
+	         
+	       });
+	       
+	    });
+		
+		
+			
+	
+		var Interval = 10000;
+		var timer = setInterval(get_server, Interval);
+		
+		
+			function get_server() {
+			
+			var srv_rds = {'1':{'ip':'51.77.42.5', 'name':'Black', 'full':'RedAge Roleplay Server Black'}, '2':{'ip':'white.redage.net:22005', 'name':'White', 'full':'RedAge RolePlay | White | Global Update'}, '3':{'ip':'51.83.140.179', 'name':'Red', 'full':'RedAge Roleplay Server Red'}};
+
+				var jqxhr = $.getJSON('https://cdn.rage.mp/master/', function(data){
+	
+					jqxhr.success(function() { 
+				
+					$.each(data, function(ind, val){
+
+						$.each(srv_rds, function(indx, valx){
+
+								if(ind.indexOf(srv_rds[indx]['ip']) + 1) {
+									
+									for (var s in val){
+										if (val.hasOwnProperty(s)) {
+											
+												var maxplayers = val['maxplayers'] - 650;
+												var players = val['players'];
+												var proc = maxplayers/100;
+												var width = players/proc;
+
+										}
+									}
+									
+                                $('#upd_' + srv_rds[indx]['name'] + ' .serv__rd__ip span').text(ind);
+								$('#upd_' + srv_rds[indx]['name'] + ' .serv__rd__text span').html(players + ' / '+ maxplayers);
+								$('#upd_' + srv_rds[indx]['name'] + ' .serv__rd__line span').css('width', width+'%');
+									
+								delete srv_rds[ind];
+								
+								} else if (val['name'].indexOf(srv_rds[indx]['full']) + 1) {
+									
+								for (var s in val){
+										if (val.hasOwnProperty(s)) {
+											
+												var maxplayers = val['maxplayers'] - 650;
+												var players = val['players'];
+												var proc = maxplayers/100;
+												var width = players/proc;
+
+										}
+									}
+									
+                                $('#upd_' + srv_rds[indx]['name'] + ' .serv__rd__ip span').text(ind);
+								$('#upd_' + srv_rds[indx]['name'] + ' .serv__rd__text span').html(players + ' / '+ maxplayers);
+								$('#upd_' + srv_rds[indx]['name'] + ' .serv__rd__line span').css('width', width+'%');
+								
+								delete srv_rds[ind];
+								
+								}
+							
+						 });
+	
+					  });
+
+					})
+					
+					jqxhr.error(function() { console.log("no connection"); })
+
+					$.each(srv_rds,function(index,value){
+							$('#upd_' + srv_rds[index]['name'] + ' .serv__rd__text span').html('<span style="color:red;">Выключен</span>');
+							$('#upd_' + srv_rds[index]['name'] + ' .serv__rd__line span').css('width', '0%');
+					});
+					
+				});
+				
+				if (!jqxhr) {
+					$.each(srv_rds,function(index,value){
+							$('#upd_' + srv_rds[index]['name'] + ' .serv__rd__text span').html('<span style="color:red;">Выключен</span>');
+							$('#upd_' + srv_rds[index]['name'] + ' .serv__rd__line span').css('width', '0%');
+					});
+				}
+			}
+		
+			get_server();
+			
+			$(".download__multiplayer").click(function() {
+			window.location = 'https://cdn.rage.mp/public/files/RAGEMultiplayer_Setup.exe';
+			});
+		
+	    
+	       function CopyToClipboard(containerid) {
+	           var ct = $('#' + containerid + ' span');
+	           var a = $('#' + containerid + ' a');
+	           var prevHtml = a.html();
+	           var $temp = $("<input style='opacity:0;'>");
+	           $("body").append($temp);
+	           $temp.val(ct.text()).select();
+	           document.execCommand("copy");
+	           $temp.remove();
+	           a.text('Скопирован!');
+	           setTimeout(function() { 
+	               $('#' + containerid + ' a').text(prevHtml)
+	           },  700)
+	       }
+
+	         get_server();
+	        
+	</script>
+	
+	<script>$(window).on('load', function () {
+    var $preloader = $('#p_prldr'),
+        $svg_anm   = $preloader.find('.svg_anm');
+    $svg_anm.fadeOut();
+    $preloader.delay(500).fadeOut('slow');
+});</script>
+	
+<!— Yandex.Metrika counter —>
+<script type="text/javascript" >
+(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+ym(53059735, "init", {
+clickmap:true,
+trackLinks:true,
+accurateTrackBounce:true,
+webvisor:true
+});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/53059735" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!— /Yandex.Metrika counter —>
+
+<script type="text/javascript">!function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://vk.com/js/api/openapi.js?168",t.onload=function(){VK.Retargeting.Init("VK-RTRG-491901-3fWdN"),VK.Retargeting.Hit(),VK.Goal('page_view')},document.head.appendChild(t)}();</script>
+<noscript><img src="https://vk.com/rtrg?p=VK-RTRG-491901-3fWdN" style="position:fixed; left:-999px;" alt=""/></noscript>
+	<div id="fp-nav">
+		<ul></ul>
+	</div>
+</body>
+</html>
